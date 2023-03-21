@@ -12,5 +12,15 @@ public class ContinuBreak {
             total += num;
         }
         System.out.println("1부터 100까지 홀수의 합은 "+total+"입니다");
+
+        int num;
+        for(num=0;; num++) {
+            sum+=num;
+            if(sum>=100){
+                break;
+            }
+        }
+        System.out.println("num : "+num);
+        System.out.println("sum : "+sum);
     }
 }

@@ -16,7 +16,7 @@ public class Student {
     }
 
     public void takesubway(Subway subway){
-        subway.take(5000);
+        subway.take(1500);
         this.money -= 1500;
     }
     public void showInfo(){

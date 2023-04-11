@@ -24,7 +24,12 @@ public class ThisContruct {
         System.out.println(personThis.age);
 
         PersonThis personThis1 = personThis.returnSelf();
+        PersonThis personThis2 = new PersonThis();
+        PersonThis personThis3 = personThis2.returnSelf();
         System.out.println(personThis);
         System.out.println(personThis1);
+        System.out.println(personThis2);
+        System.out.println(personThis3);
+
     }
 }
